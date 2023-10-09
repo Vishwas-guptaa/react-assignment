@@ -1,0 +1,44 @@
+.exchange-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exchange-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 3px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exchange-info img {
+    max-width: 50px;
+    margin-right: 10px;
+  }
+  
+  .exchange-info span {
+    flex-grow: 1;
+  }
+  
+  .row-index {
+    font-weight: bold;
+    color: #333;
+margin-right: 15px;
+
+  }
+  
+  .blue-button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .blue-button:hover {
+    background-color: darkblue;
+  }
+  
